@@ -1,76 +1,119 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>Parallax backgrounds with centered content</title>
-    <meta name="description" content="Parallax backgrounds with centered content">
-    <link rel="stylesheet" href="style/style.css" />
-</head>
-<body>
-  
-<div class="fullscreen background parallax" 
-style="background-image:url('images/taronjaBankLogo.png');
-       background-color:black;" 
-data-img-width="1000" data-img-height="500">
-    <div class="content-a">
-        <div class="content-b">
-           <div class="autor">
-                <p>Autor: Martín Gómez Fabiá</p>
-                <p>Presentación Taronja Bank</p>
-           </div> 
+    <head>
+        <meta charset="utf-8">
+        <title>Parallax backgrounds with centered content</title>
+        <meta name="description" content="Parallax backgrounds with centered content">
+        <link rel="stylesheet" href="style/style.css" />
+        <link rel="stylesheet" href="style/styleTecnologies.css" />
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+        <!-- PORTADA -->
+        <div class="fullscreen background parallax" 
+        style="background-image:url('images/taronjaBankLogo.png');
+               background-color:black;" 
+        data-img-width="1000" data-img-height="500">
+            <div class="content-a">
+                <div class="content-b">
+                    <div class="autor">
+                        <p>Autor: Martín Gómez Fabiá</p>
+                        <p>Presentación Taronja Bank 2015</p>
+                    </div> 
+                </div>
+            </div>
         </div>
-    </div>
 
-</div>
+        <!-- INDICE -->
+        <section class="quarter-notfullscreen" 
+        style="background-image:url('images/fpMislataLogo.jpg');
+               background-size:100% 100%;" >
+        </section>
 
+        <section class="threequarter-notfullscreen">
+            <div class="content-a">
+                <div class="content-b styleFont displayInBlock sectionTitle">
+                INDICE
+                </div>
+                <div class="content-b styleFont displayInBlock">
+                1 ........................................ Introducción 
+                </div>
+            </div>
+        </section>
 
-  
-<section class="quarter-notfullscreen" 
-style="background-image:url('images/fpMislataLogo.jpg');
-       background-size:100% 100%;" >
-    <div class="content-a">
-        <div class="content-b">
-            
+        <!-- 1. INTRODUCCION -->
+        <section class="quarter-notfullscreen" >
+            <div class="content-a styleFont sectionTitle sectionColor">
+                INTRODUCCION
+            </div>
+        </section>
+
+        <section class="threequarter-notfullscreen">
+            <div class="content-a">
+                <div class="content-b styleFont displayInBlock sectionContent">
+                    TaronjaBank es una aplicación web realizada en el segundo 
+                    curso del ciclo formativo de DAW y que intenta simular como seria
+                    de una manera poco compleja la gestión de un banco desde el punto de vista de un trabajador y un cliente (parte no implementada aún).
+                    Para introducir la explicación de los detalles de la aplicación y de las posibles
+                    mejoras que se podrían implementar me gustaria hacer referencia a la metodologia de trabajo y a las tecnologías más importantes empleadas para la realización de este proyecto.
+                </div>
+                <div class="content-b styleFont displayInBlock sectionContent">
+                    <div class="content-b columnsWidth30">
+                        <div>
+                            <p>Metodología</p>
+                            <div class="imgMet"></div>
+                        </div> 
+                    </div>
+                    <div class="content-b columnsWidth70">
+                        <div>
+                            <p>Tecnologias Empleadas</p> 
+                            <div style="width:100%; float:left;">
+                                <div class="imgTecMySQL"></div>
+                                <div class="imgTecAng"></div>
+                                <div class="imgTecFly"></div>
+                                <div class="imgTecJen"></div>
+                                <div class="imgTecTom"></div>
+                                <div class="imgTecJava"></div>
+                                <div class="imgTecHib"></div>
+                                <div class="imgTecSpr"></div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+         <div class="fullscreen">
+            <div class="content-a">
+                <div class="content-b styleFont displayInBlock sectionContent">
+                    Por otra parte para hacer posible la realización de TaronjaBank también se han utilizado otras tecnologías y una serie de herremientas de Desarrollo de software co
+                    mo:
+                </div>
+                <div class="content-b styleFont displayInBlock sectionContent">
+                    <div>
+                        <p class="tituloSubseccion">Más Tecnologias:</p>
+                        <div class="imgTecHTML"></div>
+                        <div class="imgTecXML"></div>
+                        <div class="imgTecANT"></div>
+                        <div class="imgTecSASS"></div>
+                        <div class="imgTecGIT"></div>
+                        <div class="imgTecBOOT"></div>
+                    </div>
+                    <div>
+                        <p class="tituloSubseccion">Herramientas de Desarrollo:</p>
+                        <div class="imgTecNET"></div>
+                        <div class="imgTecCHR"></div>
+                        <div class="imgTecFIRE"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
 
-<section class="threequarter-notfullscreen">
-    <div class="content-a">
-        <div class="content-b">
-            
-        </div>
-    </div>
-</section>
+        
 
-
-  
-
- <!-- 
-<div class="fullscreen background parallax" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_9857.jpg');" data-img-width="1600" data-img-height="1064" data-diff="100">
-    <div class="content-a">
-        <div class="content-b">
-            <br>Content overflow<br>Content overflow
-            <br>Content overflow<br>Content overflow
-            <br>Content overflow<br>Content overflow
-            <br>Content overflow<br>Content overflow
-            <br><br>
-        </div>
-    </div>
-</div>
-  
-<div class="not-fullscreen background parallax" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_8697.jpg');" data-img-width="1600" data-img-height="1064" data-diff="100">
-    <div class="content-a">
-        <div class="content-b">
-            Centered content
-        </div>
-    </div>
-</div>
-  -->  
-
-  
-<!-- include jQuery -->
-<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="js/index.js"></script> 
-</body>
+        <!-- include jQuery -->
+        <script src="js/jquery/jquery.min.js"></script>
+        <script src="js/index.js"></script> 
+    </body>
 </html>

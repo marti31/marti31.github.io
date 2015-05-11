@@ -36,7 +36,6 @@ html, body {
 	text-align:center;
 }
 
-
 /* visual styles */
 body{
     margin:0;
@@ -47,11 +46,12 @@ body{
     text-align:center;
 }
 section {
-	background:#9ed100;
+	background:#E7E9E4;;
 }
 
+/* my styles */
 .threequarter-notfullscreen {
-    height:75%;
+    height:85%;
 }
 
 .middle-notfullscreen {
@@ -59,7 +59,7 @@ section {
 }
 
 .quarter-notfullscreen {
-    height:25%;
+    height:15%;
 }
 
 .autor{
@@ -68,3 +68,45 @@ section {
     margin-left: 50%;
     color: #C3B8B8;
 }
+
+.styleFont{
+    font-family: 'Lobster', cursive;
+    color: #000571;
+}
+
+.displayInBlock{
+    display: block;
+}
+
+.sectionTitle{
+    font-size: 65px;
+    padding: auto;
+}
+
+.sectionColor{
+    background-color: grey;
+}
+
+.sectionContent{
+    width: 80%;
+    margin:  10px auto auto;
+    line-height: 35px;
+}
+
+.columnsWidth30{ 
+    padding-top: 5px;
+    display: inline-block;
+    width: 30%;
+    float: left;
+}
+
+.columnsWidth70{
+    padding-top: 5px;
+    display: inline-block;
+    width: 70%;
+    float:right;
+}
+.tituloSubseccion{
+    padding-top: 5px;
+}
+

@@ -1,0 +1,129 @@
+.imgTecMySQL{
+    width:25%;
+    height: 100px;
+    background-image: url('../images/mySQLLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgTecAng{
+    width:25%;
+    height: 100px;
+    background-image: url('../images/angularjsLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgTecFly{
+    width:25%;
+    height: 100px;
+    background-image: url('../images/flywayLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgTecJen{
+    width:25%;
+    height: 100px;
+    background-image: url('../images/jenkinsLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgTecTom{
+    width:25%;
+    height: 100px;
+    background-image: url('../images/tomcatLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgTecJava{
+    width:25%;
+    height: 100px;
+    background-image: url('../images/javaLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgTecHib{
+    width: 25%;
+    height:100px;
+    background-image: url('../images/hibernateLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgTecSpr{
+    width: 25%;
+    height:100px;
+    background-image: url('../images/springLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgTecHTML{
+    width:33.3%;
+    height: 100px;
+    background-image: url('../images/htmlYcssLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgTecXML{
+    width:33.3%;
+    height: 100px;
+    background-image: url('../images/xmlLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgTecANT{
+    width:33.3%;
+    height: 100px;
+    background-image: url('../images/antLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgTecSASS{
+    width:33.3%;
+    height: 100px;
+    background-image: url('../images/sassLogo.png');
+    background-size:100% 100%;
+    float: left;
+    margin-top: 10px;                   
+}
+.imgTecGIT{
+    width:33.3%;
+    height: 100px;
+    background-image: url('../images/gitLogo.png');
+    background-size:100% 100%;
+    float: left;
+    margin-top: 10px;                   
+}
+.imgTecBOOT{
+    width:33.3%;
+    height: 100px;
+    background-image: url('../images/bootstrapLogo.png');
+    background-size:100% 100%;
+    float: left;
+    margin-top: 10px;                   
+}
+.imgTecNET{
+    width:33.3%;
+    height: 100px;
+    background-image: url('../images/netbeansLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgTecCHR  {
+    width:33.3%;
+    height: 100px;
+    background-image: url('../images/chromeLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgTecFIRE{
+    width:33.3%;
+    height: 100px;
+    background-image: url('../images/firefoxLogo.png');
+    background-size:100% 100%;
+    float: left;                   
+}
+.imgMet{
+    height: 138px;
+    background-image: url('../images/scrumLogo.png');
+    background-size:100% 100%;
+    width: 65%;
+    margin: auto;
+}
