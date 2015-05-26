@@ -109,4 +109,15 @@ section {
 .tituloSubseccion{
     padding-top: 5px;
 }
+.indexItems{
+    line-height:40px;
+}
+.linkStyle{
+    margin-left: 40%;
+    color: white;
+}
 
+.linkStyleFirst{
+    margin-top: 8%;
+    color: white;
+}

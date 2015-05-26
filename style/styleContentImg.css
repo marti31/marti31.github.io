@@ -1,0 +1,23 @@
+.imgDomainTree{
+    width:33.3%;
+    height: 505px;
+    background-image: url('../images/contentImages/ArbolDominio.png');
+    background-size:100% 100%;
+    float: left;
+}
+   
+.imgPersistTree{
+    width:33.3%;
+    height: 505px;
+    background-image: url('../images/contentImages/ArbolPersistencia.png');
+    background-size:100% 100%;
+    float: left;
+}
+
+.imgPresentationTree{
+    width:33.3%;
+    height: 505px;
+    background-image: url('../images/contentImages/ArbolPresentacion.png');
+    background-size:100% 100%;
+    float: left;
+}
