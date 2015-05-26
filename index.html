@@ -11,6 +11,9 @@
 
     </head>
     <body>
+
+        <progress id="html5" class="progressBar" max="1200" value="0"></progress>
+        
         <!-- PORTADA -->
         <div class="fullscreen background parallax" 
         style="background-image:url('images/taronjaBankLogo.png');
@@ -42,9 +45,10 @@
                 <p>1 ........................................ <a href="#Introduccion">Introducción</a></p>
                 <p>2 ........................ <a href="#Estructura">Estructura del Codigo Fuente</a></p>
                 <p>3 .............................. <a href="#Funcionamiento">Funcionamiento General</a></p>
-                <p>4 ....................................... <a href="#Item">Item Acciones</a></p>
-                <p>5 ....................................... <a href="#Transacciones">Transacciones</a></p>
-                <p>6 ............................................. <a href="#Mejoras">Mejoras</a></p> 
+                <p>4 ............................. <a href="#FuncionamientoInterfaz">Funcionamiento Interfaz</a></p>
+                <p>5 ....................................... <a href="#Item">Item Acciones</a></p>
+                <p>6 ....................................... <a href="#Transacciones">Transacciones</a></p>
+                <p>7 ............................................. <a href="#Mejoras">Mejoras</a></p> 
                 </div>
             </div>
         </section>
@@ -132,7 +136,7 @@
                     <div>
                          <div class="imgDomainTree"></div>
                     </div>
-                    <p>esplicacionsassssssssssssssssssssssssssssssssssss</p>
+                    <p>El paquete common es un cajón de sastre donde está aquello que se va ha utilizar en toda la aplicación, como la clase de Validaciones y JsonTransformer, una herramienta para convertir JSON a objetos JAVA y viceversa.</p>
                 </div>
             </div>
         </section>
@@ -188,8 +192,25 @@
             </div>
             </section>
 
+        <!-- 4. FUNCIONAMIENTO Interfaz -->
+        <section class="quarter-notfullscreen background parallax" >
+        
+            <div class="content-a styleFont sectionTitle sectionColor">
+               <a name="FuncionamientoInterfaz"></a> FUNCIONAMIENTO INTERFAZ
+            </div>
+        </section>
+        
+            <section class="threequarter-notfullscreen" style="background-color:#E7E9E4;">
+            <div class="content-a">
+                <div class="content-b styleFont displayInBlock sectionContent">
+                     <div>
+                         <div class="imgEsquemaInterfaz"></div>
+                    </div>
+                </div>
+            </div>
+            </section>    
 
-        <!-- 4. ITEM ACCIONES -->
+        <!-- 5. ITEM ACCIONES -->
         <section class="quarter-notfullscreen background parallax" >
         
             <div class="content-a styleFont sectionTitle sectionColor">
@@ -210,7 +231,7 @@
             </div>
             </section>
             
-        <!-- 5. TRANSACCIONES -->
+        <!-- 6. TRANSACCIONES -->
         <section class="quarter-notfullscreen background parallax" >
         
             <div class="content-a styleFont sectionTitle sectionColor">
@@ -245,7 +266,7 @@
             </section>
         </section>
         
-        <!-- 6. MEJORAS -->
+        <!-- 7. MEJORAS -->
         <section class="quarter-notfullscreen background parallax" >
 
             <div class="content-a styleFont sectionTitle sectionColor">
@@ -267,5 +288,6 @@
         <!-- include jQuery -->
         <script src="js/jquery/jquery.min.js"></script>
         <script src="js/index.js"></script> 
+        <script src="js/progressBar.js"></script> 
     </body>
 </html>

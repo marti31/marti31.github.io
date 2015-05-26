@@ -1,3 +1,4 @@
+val=0;
 /* detect touch */
 if("ontouchstart" in window){
     document.documentElement.className = document.documentElement.className + " touch";
@@ -96,4 +97,11 @@ if(!$("html").hasClass("touch")){
     //$(window).focus(parallaxPosition);
     $(window).scroll(parallaxPosition);
     parallaxPosition();
+}
+
+window.onload = function() {
+     
+   setInterval('animateprogress("#html5",'+val+'0)',1000);
+    
+     
 }

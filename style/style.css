@@ -41,7 +41,7 @@ body{
     margin:0;
     font-family:sans-serif;
     font-size:28px;
-    line-height:100px;
+    overflow-x: hidden;
 	color:#ffffff;
     text-align:center;
 }
@@ -71,7 +71,7 @@ section {
 
 .styleFont{
     font-family: 'Lobster', cursive;
-    color: #000571;
+    color: #0F04C8;;
 }
 
 .displayInBlock{
@@ -79,12 +79,12 @@ section {
 }
 
 .sectionTitle{
-    font-size: 65px;
+    font-size: 77px;
     padding: auto;
 }
 
 .sectionColor{
-    background-color: grey;
+    background-color: #151515;
 }
 
 .sectionContent{
@@ -110,7 +110,7 @@ section {
     padding-top: 5px;
 }
 .indexItems{
-    line-height:40px;
+    line-height:30px;
 }
 .linkStyle{
     margin-left: 40%;
@@ -120,4 +120,12 @@ section {
 .linkStyleFirst{
     margin-top: 8%;
     color: white;
+}
+
+.progressBar{
+    z-index: 9999999;
+    position: fixed;
+    width: 100%;
+    font-size: 15px;
+    left: 0px;
 }

@@ -21,3 +21,11 @@
     background-size:100% 100%;
     float: left;
 }
+
+.imgEsquemaInterfaz{
+    width:100%;
+    height: 505px;
+    background-image: url('../images/contentImages/EsquemaInterfaz.png');
+    background-size:100% 100%;
+    float: left;
+}
