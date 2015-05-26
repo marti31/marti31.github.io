@@ -137,6 +137,8 @@
                          <div class="imgDomainTree"></div>
                     </div>
                     <p>El paquete common es un cajón de sastre donde está aquello que se va ha utilizar en toda la aplicación, como la clase de Validaciones y JsonTransformer, una herramienta para convertir JSON a objetos JAVA y viceversa.</p>
+                    <p>En el paquete servicio están recogidos todos los servicios adicionales de la aplicación, en este caso el servicio de Seguridad.</p>
+                    <p>En el paquete dominio están recojidas todas las clases de negocio de la aplicación, al igual que las clases Credencial y Transacción que aunque no pertenezcan 100% al negocio de la aplicación son de mucha importancia para diferentes funcionalidades de Taronja-Bank</p>
                 </div>
             </div>
         </section>
@@ -150,9 +152,9 @@
             <div class="content-a">
                 <div class="content-b styleFont displayInBlock sectionContent">
                     <div>
-                         <div class="imgDomainTree"></div>
+                         <div class="imgPersistTree"></div>
                     </div>
-                    <p>esplicacionsassssssssssssssssssssssssssssssssssss</p>
+                    <p>El paquete persistencia esta directamente relacionado con la base de datos, en el estan las clases relacionadas con esta y su implementación mediante Hibernate, así como las clases BussinessException y BussinessMessage que nos permiten generar los errores lanzados al realizar alguna acción erronea en la base de datos.</p>
                 </div>
             </div>
         </section>
@@ -168,7 +170,8 @@
                     <div>
                          <div class="imgPresentationTree"></div>
                     </div>
-                    <p>esplicacionsassssssssssssssssssssssssssssssssssss</p>
+                    <p>En el paquete de presentación están todas las clases encargadas de comunicarse con el front de la aplicación y realizar las acciones requeridas por este.</p>
+                    <p>Es la capa del back que está más cerca del front.</p>
                 </div>
             </div>
         </section>
