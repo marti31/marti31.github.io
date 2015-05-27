@@ -7,9 +7,13 @@ function animateprogress (id){
     
     if(val<max){
         val++;
-        console.log(val);
         document.querySelector(id).setAttribute("value",val);
-          
+        if(val===600){
+        document.querySelector(id).style.backgroundColor = "#F8DA43"; 
+    	}
+    	if(val===900){
+        document.querySelector(id).style.backgroundColor = "#EF0000"; 
+    	}
     }         
         
            

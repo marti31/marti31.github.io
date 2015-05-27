@@ -29,3 +29,100 @@
     background-size:100% 100%;
     float: left;
 }
+
+.imgEsquemaGeneral{
+    width:100%;
+    height: 505px;
+    background-image: url('../images/contentImages/esquemaGeneral.png');
+    background-size:100% 100%;
+    float: left;
+}
+
+.imgResource{
+    width:100%;
+    height: 250px;
+    background-image: url('../images/contentImages/incluirResource.png');
+    background-size:100% 100%;
+    float: left;
+}
+
+.imgHttpGet{
+    width:50%;
+    height: 400px;
+    background-image: url('../images/contentImages/httpGet.png');
+    background-size:100% 100%;
+    float: left;
+}
+.imgHttpPost{
+    width:50%;
+    height: 400px;
+    background-image: url('../images/contentImages/httpPost.png');
+    background-size:100% 100%;
+    float: left;
+}
+.imgHttpPut{
+    width:50%;
+    height: 400px;
+    background-image: url('../images/contentImages/httpPut.png');
+    background-size:100% 100%;
+    float: left;
+}
+.imgHttpDel{
+    width:50%;
+    height: 400px;
+    background-image: url('../images/contentImages/httpDel.png');
+    background-size:100% 100%;
+    float: left;
+}
+
+.imgResourceGet{
+    width:50%;
+    height: 400px;
+    background-image: url('../images/contentImages/resourceGet.png');
+    background-size:100% 100%;
+    float: left;
+}
+.imgResourcePost{
+    width:50%;
+    height: 400px;
+    background-image: url('../images/contentImages/resourcePost.png');
+    background-size:100% 100%;
+    float: left;
+}
+.imgResourcePut{
+    width:50%;
+    height: 400px;
+    background-image: url('../images/contentImages/resourcePut.png');
+    background-size:100% 100%;
+    float: left;
+}
+.imgResourceDel{
+    width:50%;
+    height: 400px;
+    background-image: url('../images/contentImages/resourceDel.png');
+    background-size:100% 100%;
+    float: left;
+}
+
+.imgContante{
+    width:100%;
+    height: 250px;
+    background-image: url('../images/contentImages/incluirConstantes.png');
+    background-size:100% 100%;
+    float: left;
+}
+
+.imgConstanteMala{
+    width:50%;
+    height: 400px;
+    background-image: url('../images/contentImages/constanteBueno.png');
+    background-size:100% 100%;
+    float: left;
+}
+.imgConstanteBuena{
+    width:50%;
+    height: 400px;
+    background-image: url('../images/contentImages/constanteMalo.png');
+    background-size:100% 100%;
+    float: left;
+}
